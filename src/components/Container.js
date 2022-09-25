@@ -1,7 +1,7 @@
 import React from "react";
 
 function Container({
-  header,
+  header, // prop
   children,
   textPosition = "", // possible values: left, right, center
   direction = "horizontal", // possible values: vertical, horizontal
